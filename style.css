@@ -1,0 +1,67 @@
+*
+{
+	margin:0;
+	padding:0;
+}
+body {
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("puppy.jpg");
+  background-position:none;
+  height:100px;
+  background-size:cover;
+}
+/*manin page*/
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: none;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: "verdana", "san-serif";
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: black;
+  color: white;
+}
+
+.tagline{
+	position: absolute;
+	width: 1200px;
+	margin-left: 0;
+	margin-top: 0;
+}
+h1 {
+	color: white;
+	font-size: 40px;
+	font-family: "verdana";
+}
+h1 {
+	text-align: center;
+	margin-top: 275px;
+}
+.adopt {
+	margin-top: 30x;
+	margin-left: 540px;
+}
+.button {
+	border: 1px;
+	border-style: solid;
+  border-width: small;
+	padding: 10px 10px;
+	color: yellow;
+	font-family: "san-serif";
+	font-size: 25px;
+	text-decoration: none;
+}
+.adopt a:hover {
+	background-color: burlywood;
+}
